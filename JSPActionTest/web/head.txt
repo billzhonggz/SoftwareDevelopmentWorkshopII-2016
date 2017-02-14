@@ -1,0 +1,8 @@
+
+<table cellSpacing = "1" width = "60%" align = "center" border = "0">
+    <tr valign = "bottom">
+        <td><a href = "one.jsp"><font size = 3>Page one.jsp</font></a></td>
+        <td><a href = "two.jsp"><font size = 3>Page two.jsp</font></a></td>
+        <td><a href = "three.jsp"><font size = 3>Page three.jsp</font></a></td>
+    </tr>
+</table>

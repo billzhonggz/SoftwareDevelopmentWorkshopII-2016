@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>AddNewCourse</servlet-name>
+        <servlet-class>com.billzhonggz.controllers.AddNewCourse</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddNewCourse</servlet-name>
+        <url-pattern>/addNewCourse</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowInstructorHome</servlet-name>
+        <servlet-class>com.billzhonggz.controllers.ShowInstructorHome</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowInstructorHome</servlet-name>
+        <url-pattern>/showInstructorHome</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowCourseDetail</servlet-name>
+        <servlet-class>com.billzhonggz.controllers.ShowCourseDetail</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowCourseDetail</servlet-name>
+        <url-pattern>/showCourseDetail</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ImportData</servlet-name>
+        <servlet-class>ExcelImport.ImportData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ImportData</servlet-name>
+        <url-pattern>/importData</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddAssessment</servlet-name>
+        <servlet-class>com.DavidYao.AddAssessment</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddAssessment</servlet-name>
+        <url-pattern>/addAssessment</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Question</servlet-name>
+        <servlet-class>com.DavidYao.AddQuestion</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Question</servlet-name>
+        <url-pattern>/question</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CreateWordDoc</servlet-name>
+        <servlet-class>WordOutput.CreateWordDoc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateWordDoc</servlet-name>
+        <url-pattern>/createWord</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ShowAssDetail</servlet-name>
+        <servlet-class>com.billzhonggz.controllers.ShowAssDetail</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowAssDetail</servlet-name>
+        <url-pattern>/showAssDetail</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AddQuestion</servlet-name>
+        <servlet-class>com.DavidYao.AddQuestion</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddQuestion</servlet-name>
+        <url-pattern>/addQuestion</url-pattern>
+    </servlet-mapping>
+</web-app>

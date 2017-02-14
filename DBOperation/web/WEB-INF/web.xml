@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>DBInsert</servlet-name>
+        <servlet-class>com.billzhonggz.DBInsert</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DBSelect</servlet-name>
+        <servlet-class>com.billzhonggz.DBSelect</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DBUpdate</servlet-name>
+        <servlet-class>com.billzhonggz.DBUpdate</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DBDelete</servlet-name>
+        <servlet-class>com.billzhonggz.DBDelete</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ManageQuestion</servlet-name>
+        <servlet-class>com.billzhonggz.ManageQuestion</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DBInsert</servlet-name>
+        <url-pattern>/insert</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DBSelect</servlet-name>
+        <url-pattern>/select</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DBUpdate</servlet-name>
+        <url-pattern>/update</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DBDelete</servlet-name>
+        <url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManageQuestion</servlet-name>
+        <url-pattern>/manage-question</url-pattern>
+    </servlet-mapping>
+</web-app>
